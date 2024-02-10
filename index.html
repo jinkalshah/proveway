@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proveway Pvt Ltd.</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <form action="" onsubmit="alert('Item has been added to Cart')">
+      <section class="mainDiv">
+        <h2><span>YAY! It’s BOGO</span></h2>
+        <label
+          class="one radioDiv"
+          onclick="handleRadioClick('one')"
+          for="one_pair"
+        >
+          <input type="radio" id="one_pair" name="pairs" />
+          <div class="radioOptionDiv">
+            <div style="display: flex; justify-content: space-between">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  margin-bottom: 8px;
+                "
+              >
+                <div class="pair">
+                  <p style="margin: 4px">1 Unit</p>
+                  <p style="margin: 4px" class="discount">10% Off</p>
+                </div>
+                <div
+                  style="
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 15px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                  "
+                >
+                  Standard Price
+                </div>
+              </div>
+
+              <div class="price">
+                <div>$10.00 USD</div>
+                <div class="lineThroughText">$24.00 USD</div>
+              </div>
+            </div>
+            <div class="description">
+              <table>
+                <tr>
+                  <th></th>
+                  <th>Size</th>
+                  <th>color</th>
+                </tr>
+                <tr>
+                  <td>#1</td>
+                  <td>
+                    <select name="size" id="size">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select name="color" id="color">
+                      <option value="red">Red</option>
+                      <option value="white">White</option>
+                      <option value="blue">Blue</option>
+                      <option value="pink">Pink</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </label>
+
+        <label
+          class="two radioDiv"
+          onclick="handleRadioClick('two')"
+          for="two_pair"
+        >
+          <input type="radio" id="two_pair" name="pairs" />
+          <div class="radioOptionDiv">
+            <div style="display: flex; justify-content: space-between">
+              <div class="pair">
+                <p>2 Unit</p>
+                <p class="discount">20% Off</p>
+              </div>
+              <div class="price">
+                <div>$18.00 USD</div>
+                <div class="lineThroughText">$24.00 USD</div>
+              </div>
+            </div>
+
+            <div class="description">
+              <table>
+                <tr>
+                  <th></th>
+                  <th>Size</th>
+                  <th>color</th>
+                </tr>
+                <tr>
+                  <td>#1</td>
+                  <td>
+                    <select name="size" id="size">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select name="color" id="color">
+                      <option value="red">Red</option>
+                      <option value="white">White</option>
+                      <option value="blue">Blue</option>
+                      <option value="pink">Pink</option>
+                    </select>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>#2</td>
+                  <td>
+                    <select name="size" id="size">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select name="color" id="color">
+                      <option value="red">Red</option>
+                      <option value="white">White</option>
+                      <option value="blue">Blue</option>
+                      <option value="pink">Pink</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </label>
+
+        <label
+          class="three radioDiv"
+          onclick="handleRadioClick('three')"
+          for="three_pair"
+        >
+          <input type="radio" id="three_pair" name="pairs" />
+          <div class="radioOptionDiv">
+            <div style="display: flex; justify-content: space-between">
+              <div class="pair">
+                <p>3 Unit</p>
+                <p class="discount">30% Off</p>
+              </div>
+              <div class="price">
+                <div>$24.00 USD</div>
+                <div class="lineThroughText">$24.00 USD</div>
+              </div>
+            </div>
+            <div class="description">
+              <table>
+                <tr>
+                  <th></th>
+                  <th>Size</th>
+                  <th>color</th>
+                </tr>
+                <tr>
+                  <td>#1</td>
+                  <td>
+                    <select name="size" id="size">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select name="color" id="color">
+                      <option value="red">Red</option>
+                      <option value="white">White</option>
+                      <option value="blue">Blue</option>
+                      <option value="pink">Pink</option>
+                    </select>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>#2</td>
+                  <td>
+                    <select name="size" id="size">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select name="color" id="color">
+                      <option value="red">Red</option>
+                      <option value="white">White</option>
+                      <option value="blue">Blue</option>
+                      <option value="pink">Pink</option>
+                    </select>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>#3</td>
+                  <td>
+                    <select name="size" id="size">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select name="color" id="color">
+                      <option value="red">Red</option>
+                      <option value="white">White</option>
+                      <option value="blue">Blue</option>
+                      <option value="pink">Pink</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </label>
+        <div
+          class="total"
+          style="
+            display: flex;
+            font-size: 14px;
+            justify-content: space-between;
+            margin-bottom: 10px;
+          "
+        >
+          <p style="font-weight: 600; color: #ff6b82">Free Delivery</p>
+          <p style="font-weight: 400">
+            Total :<strong style="font-weight: 600">
+              $<span>00</span>.00 USD
+            </strong>
+          </p>
+        </div>
+        <div style="display: flex; justify-content: center">
+          <input type="submit" class="finalPayment" value="+ Add to Cart" />
+        </div>
+        <footer style="display: flex; justify-content: flex-end; opacity: 0.4">
+          @ Powered by Pumper
+        </footer>
+      </section>
+    </form>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

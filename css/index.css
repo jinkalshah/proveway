@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url(../fonts/Metropolis-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.otf) format("truetype");
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+  /* width: 340.73px; */
+}
+.mainDiv label {
+  display: flex;
+}
+body {
+  font-family: "Metropolis";
+}
+.radioDiv {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.radioOptionDiv {
+  display: inline-block;
+  width: 90%;
+  font-size: 14.46px;
+  margin-left: 10px;
+}
+.radioOptionDiv .pair {
+  display: flex;
+  font-size: 14.46px;
+  font-weight: 600;
+  line-height: 10px;
+  align-items: center;
+}
+p.discount {
+  border: 1px solid;
+  padding: 3px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 15px;
+  letter-spacing: 0em;
+  background: #ff6b82;
+  text-align: center;
+  color: #fff;
+  margin-left: 5px;
+}
+.description {
+  display: none;
+  margin-top: 5px;
+  font-family: "Inter";
+}
+.showDescription .description {
+  display: block !important;
+}
+.showDescription input {
+  accent-color: #ff6b82;
+}
+.showDescription {
+  background-color: #f4fbf9;
+}
+.description th {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12.03px;
+  font-family: "Inter";
+}
+.description tr td:first-child {
+  font-size: 9.04px;
+}
+.description select {
+  font-size: 10.85px;
+}
+.total {
+  font-family: "Inter";
+}
+.finalPayment {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  letter-spacing: 0em;
+  color: white;
+  background-color: #ff6b82;
+  border-color: #ff6b82;
+  pointer-events: none;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 14.52px;
+  font-weight: 500;
+}
+footer {
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 15px;
+  margin-top: 10px;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.9px solid #c8c8c8;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff6b82;
+}
+
+h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+.lineThroughText {
+  text-decoration: line-through;
+  opacity: 0.3;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.price {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  flex-direction: column;
+  justify-content: center;
+}
+.selectedBorder {
+  border: 2px solid #ff6b82;
+}
+.two {
+  position: relative;
+  padding-top: 20px;
+}
+.two::after {
+  content: "MOST POPULAR";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: Inter;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  color: #fff;
+  background: #ff6b82;
+  margin-right: 6px;
+  margin-top: -5px;
+}
+input[type="radio"]:checked {
+  border-color: green !important;
+}
+.two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 0;
+  width: 106px;
+  border-bottom: 5px solid #d7445b;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  background: transparent;
+  margin-right: 1px;
+  margin-top: -5px;
+}
+@media screen and (max-width: 770px) {
+  .mainDiv {
+    width: 340.73px;
+  }
+}
