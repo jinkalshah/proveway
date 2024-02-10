@@ -40,12 +40,17 @@ body {
   line-height: 10px;
   align-items: center;
 }
+input[type="radio"]:checked{
+  margin-bottom: auto;
+  margin-top: 7%;
+}
 p.discount {
   border: 1px solid;
   padding: 3px;
   font-family: Inter;
   font-size: 12px;
-  font-weight: 100;
+  font-weight: 400;
+  border-radius: 2px;
   line-height: 15px;
   letter-spacing: 0em;
   background: #ff6b82;
